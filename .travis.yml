@@ -15,7 +15,7 @@ install:
 
 script:
   - pyinstaller --onefile hello.py
-  - sleep 1  # Allow pyinstaller to finish writing to stdout
+  - sleep 2  # Allow pyinstaller to finish writing to stdout
   - ls -l dist
   - dist/hello.exe
   - echo ">>>> build successfully!"
