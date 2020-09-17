@@ -13,9 +13,9 @@ matrix:
         - choco install python
 
 install:
-  - python -m pip install --upgrade pip
+  - python -m pip3 install --upgrade pip3
   #- pip install -r requirements.txt
-  - pip install pyinstaller
+  - pip3 install pyinstaller
 
 script:
   - pyinstaller --onefile hello.py
