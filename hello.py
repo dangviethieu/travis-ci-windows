@@ -1,3 +1,3 @@
 import sys
 
-print('Hello Python {}.{}.{}'.format(*sys.version_info))
+print('HelloWorld, Python {}.{}.{}'.format(*sys.version_info))
